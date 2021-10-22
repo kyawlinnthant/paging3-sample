@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/list_frag">
+
+    <fragment
+        android:id="@+id/list_frag"
+        android:name="mdy.klt.paging3_test.ui.list.ListFragment"
+        android:label="Popular Movie List" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="mdy.klt.paging3_test.ui.detail.DetailFragment"
+        android:label="DetailFragment" />
+</navigation>
